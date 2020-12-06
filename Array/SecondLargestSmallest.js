@@ -20,5 +20,6 @@ for(let i = 0; i<numArray.length; i++)
         }
     }
 }
+//print statements
 console.log(numArray);
 console.log("Second largest element: "+numArray[(numArray.length-2)]+"\nSecond smallest element: "+numArray[1]);
