@@ -1,7 +1,15 @@
-let array = new Array();
-for(let iterator = 1; iterator<=100; iterator++)
+//array
+repeatedDigitsArr=[];
+//traversing through for loop
+for(let i=10;i<100;i++)
 {
-    if(iterator%11==0)
-    array.push(iterator);
+    let onesDigit=i%10;
+    let tensDigit=(i-onesDigit)/10;
+    if(onesDigit==tensDigit)
+    {
+        console.log(i);
+        repeatedDigitsArr.push(i);
+    }
 }
-console.log(array);
+console.log("Repeated digits content:") 
+console.log(repeatedDigitsArr); 
